@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f3e5d8;
+}
+@media only screen and (max-width:786px){
+    body{
+        background-color: white;
+    }
+}
+  
+/* start header section */
+header{
+    background-color:white;
+    width: 750px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+@media only screen and (max-width:786px){
+    header{
+        width: 100%;
+        margin-top: 0;
+        border-radius: none;
+    }
+}
+hr{
+    width: 90%;
+    margin: auto;
+    height: 1px;
+    background-color: #e5e5e5;
+    border: none;
+    margin-top: 30px;
+}
+/* start first section */
+.first-section{
+    width: 100%;
+}
+.first-section img{
+    width: 90%;
+    margin: auto;
+    margin:50px 50px 0px 40px;
+    border-radius: 20px;
+}
+@media only screen and (max-width:786px){
+    .first-section img{
+        width: 100%;
+        margin: 0;
+    }   
+}
+.first-section h1{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+@media only screen and (max-width:786px){
+    .first-section h1{
+        margin-left: 0;
+
+    }
+}
+.first-section p{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    color: #6f6e6a;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+/* end first section */
+
+
+/* start second section */
+.second-section{
+    background-color: #fff7fc;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+.second-section h3{
+    padding: 20px;
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit", sans-serif;
+}
+.second-section ul li p{
+    color: #6f6e6a;
+    margin-left: 20px;
+}
+.second-section ul{
+    margin-left: 50px;
+    color: hsl(332, 51%, 32%);
+    padding-bottom: 20px;
+    font-family: "Outfit", sans-serif;
+    line-height: 2;
+    
+}
+/* end second section */
+
+
+/* start third section */
+.third-section h3{
+    margin: 10px 40px;
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    font-size: 30px;
+    font-weight: 400;
+}
+.third-section ul li p{
+    color: #6f6e6a;
+    margin-left: 10px;
+}
+.third-section ul li{
+    margin-left: 70px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(14, 45%, 36%);
+    line-height: 2;
+}
+/* end third section */
+
+
+/* start forth section */
+.forth-section h3{
+    margin: 20px 40px;
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    font-size: 30px;
+    font-weight: 400;
+}
+.forth-section ol{
+    margin:0px 70px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(14, 45%, 36%);
+}
+.forth-section p{
+   color:  #6f6e6a;
+   margin-left: 10px;
+   line-height: 2;
+}
+/* end forth section */
+
+
+/* start fifth section */
+.fifth-section h3{
+    margin: 20px 40px;
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    font-size: 30px;
+    font-weight: 400;
+}
+.fifth-section p{
+    margin-left: 40px;
+    margin-bottom: 30px;
+    color: #6f6e6a;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.fifth-section table{
+    width: 80%;
+    font-family: "Outfit", sans-serif;
+    margin-left: 50px;
+}
+.fifth-section tbody tr , thead{
+    border-bottom:1px solid #dee2e6 ;
+}
+.fifth-section td{
+    color: #6f6e6a;
+}
+.fifth-section th , td{
+    color: hsl(14, 45%, 36%);
+    padding: 15px;
+}
+.fifth-section tbody,thead{
+    padding-top: 30px;
+}
+/* end fifth section */
+/* end header section */
